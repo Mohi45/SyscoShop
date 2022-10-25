@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.edge.syscoshop.online.TestSyscoExecutor]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.edge.syscoshop.online.TestSyscoExecutor">
+        <methods>
+          <include name="set"/>
+          <include name="Export_Mail_OG" invocation-numbers="0"/>
+          <include name="writeExcel"/>
+          <include name="setUp"/>
+          <include name="beforeData"/>
+        </methods>
+      </class> <!-- com.edge.syscoshop.online.TestSyscoExecutor -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.edge.syscoshop.online.TestSyscoExecutor] -->
