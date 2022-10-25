@@ -66,7 +66,7 @@ public class SendMailSSL {
      */
 
     public static void sendMailAction(String PurveyorName, String RestaurantName, String fileType) {
-		String to = System.getProperty("email");
+		String to = "mk908990@gmail.com";System.getProperty("email");
         String user = Constant.sendMailFrom;// change
         // accordingly
         try {
