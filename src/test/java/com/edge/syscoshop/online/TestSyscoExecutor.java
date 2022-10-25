@@ -61,7 +61,7 @@ public class TestSyscoExecutor {
     public static void setUp() throws IOException {
         // to get the browser on which the UI test has to be performed.
         logger.info("***********StartTest*********");
-        RandomAction.deleteFiles(System.getProperty("user.home") + "/Downloads",".csv");
+        //RandomAction.deleteFiles(System.getProperty("user.home") + "/Downloads",".csv");
         driver = RandomAction.launchBrowser();//openBrowser("Chrome", path);
         driver.manage().deleteAllCookies();
         commonSysco = new CommonSysco(driver);
