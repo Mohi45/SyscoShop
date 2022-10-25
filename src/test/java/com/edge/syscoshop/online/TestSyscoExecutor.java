@@ -29,8 +29,7 @@ public class TestSyscoExecutor {
     private final static Logger logger = Logger.getLogger(TestSyscoExecutor.class);
     public static int rowIndex;
     public static String inputFile = "src/main/java/Resources/ExportEngineInput.xlsx";
-    public static String reportFile = System.getProperty("user.home")
-            + "/Desktop/Reports/SyscoShop_OG_report/ExportSummary_SyscoShop_"
+    public static String reportFile = System.getProperty("user.dir")+"/src/main/Resources/Reports/SyscoShop_OG_report/ExportSummary_SyscoShop_"
             + new Date().toString().replace(":", "").replace(" ", "") + ".xlsx";
     public static int acno;
     public static XSSFWorkbook exportworkbook;
@@ -61,7 +60,7 @@ public class TestSyscoExecutor {
     public static void setUp() throws IOException {
         // to get the browser on which the UI test has to be performed.
         logger.info("***********StartTest*********");
-        //RandomAction.deleteFiles(System.getProperty("user.home") + "/Downloads",".csv");
+        //RandomAction.deleteFiles("/var/jenkins_home/workspace/SyscoShop/",".csv");
         driver = RandomAction.launchBrowser();//openBrowser("Chrome", path);
         driver.manage().deleteAllCookies();
         commonSysco = new CommonSysco(driver);
