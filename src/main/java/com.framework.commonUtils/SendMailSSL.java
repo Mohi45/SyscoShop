@@ -73,7 +73,7 @@ public class SendMailSSL {
             // get connection
             Session session = createConnection();
             // String filepath = RandomAction.setdownloadDir();
-            File GFS_OG = RandomAction.getLatestFilefromDir("/var/jenkins_home/workspace/SyscoShop/", fileType);
+            File GFS_OG = RandomAction.getLatestFilefromDir("/var/jenkins_home/workspace/SyscoShopOGExport/", fileType);
             String filename = GFS_OG.getAbsolutePath();
             System.out.println(filename);
 
