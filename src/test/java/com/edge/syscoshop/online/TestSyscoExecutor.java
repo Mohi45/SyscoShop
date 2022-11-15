@@ -117,7 +117,8 @@ public class TestSyscoExecutor {
 
             String emailMsg = "Daily " + project + " OG Export Status: " + RandomAction.getDate();
 
-            SendMailSSL.sendReports(emailMsg, reportFile, extentReport);
+            SendMailSSL.sendReports(emailMsg, reportFile);
+            SendMailSSL.sendReports(emailMsg, extentReport);
             logger.info("Email Sent with Attachment");
         } catch (Exception e) {
             logger.error("report sent failure!!!!");
