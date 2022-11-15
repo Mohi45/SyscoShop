@@ -22,11 +22,11 @@ public class Constant {
 	
 	public static final  String sendMailToDE= "deonlinemacro@gmail.com";
 	
-	public static final  String[] reportTo= new String[]{"testprav59@gmail.com"};//{"ashutoshsaxena06@gmail.com","raj.esave@gmail.com","paola@diningedge.com", "cristian@diningedge.com"};
+	public static final  String[] reportTo= new String[]{"ashutoshsaxena06@gmail.com","raj.esave@gmail.com","paola@diningedge.com", "cristian@diningedge.com","samuel@diningedge.com","apoorva.hassani@gmail.com"};
 
-	public static final  String cc= "mk908990@gmail.com";//""ashutoshsaxena06@gmail.com";
+	public static final  String cc= "testprav59@gmail.com";//""ashutoshsaxena06@gmail.com";
 
-	public static final  String sendMailFrom= "testprav59@gmail.com";//"onlineweekend.diningedge@gmail.com";
+	public static final  String sendMailFrom= "onlineweekend.diningedge@gmail.com";
 	
 	public static final  String DownloadFolder= "C:\\Downloads\\";
  
