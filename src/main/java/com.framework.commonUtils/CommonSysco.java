@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
@@ -192,6 +193,12 @@ public class CommonSysco {
     }
 
     private void selectAccount(String accountName) throws InterruptedException {
+        if (accountName.contains(".")) {
+            int val = new BigDecimal(accountName).intValue();
+            accountName = String.valueOf(val);
+        } else {
+            System.out.println("Account is already Correct format !!");
+        }
         Thread.sleep(3000);
 		try {
 			if (driver.findElement(By.xpath("//body[@id='intercom-container-body']//div[@aria-label='Close']"))
