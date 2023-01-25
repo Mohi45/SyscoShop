@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="de-og-sysco-shop" />
+        <module name="SyscoShop" />
         <module name="sysco-shop-online" />
         <module name="de-og-sysco-shop-main" />
+        <module name="de-og-sysco-shop" />
       </profile>
     </annotationProcessing>
   </component>
