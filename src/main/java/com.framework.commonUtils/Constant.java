@@ -22,7 +22,7 @@ public class Constant {
 	
 	public static final  String sendMailToDE= "deonlinemacro@gmail.com";
 	
-	public static final  String[] reportTo= new String[]{"ashutoshsaxena06@gmail.com","raj.esave@gmail.com","paola@diningedge.com", "cristian@diningedge.com","samuel@diningedge.com","apoorva.hassani@gmail.com"};
+	public static final  String[] reportTo= new String[]{"ashutoshsaxena06@gmail.com","raj.esave@gmail.com","paola@diningedge.com","samuel@diningedge.com","apoorva.hassani@gmail.com"};
 
 	public static final  String cc= "testprav59@gmail.com";//""ashutoshsaxena06@gmail.com";
 
