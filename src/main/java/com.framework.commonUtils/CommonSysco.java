@@ -80,7 +80,7 @@ public class CommonSysco {
 			logger.info("User clicks on the nextDiscovery * ");
 			Thread.sleep(2000);
 			waitForElementToAppear(Locators.loc_password).sendKeys(password);
-			logger.info("User enters the password * ");
+			logger.info("User enters the password * " +password);
 			Thread.sleep(2000);
 			waitForElementToAppear(Locators.loc_password).sendKeys(Keys.ENTER);
 			Thread.sleep(1000);
